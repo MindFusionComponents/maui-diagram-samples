@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:diag="http://mindfusion.eu/diagramming/maui"
+             x:Class="HierarchyTree.MainPage"
+             BackgroundColor="#F8FAFC">
+	<Grid RowDefinitions="Auto, *">
+		<!-- Modern App Header -->
+		<VerticalStackLayout Grid.Row="0" Padding="16, 16, 16, 8" HorizontalOptions="Center">
+			<Label Text="ORGANIZATIONAL HIERARCHY" 
+			       FontSize="11" 
+			       FontAttributes="Bold" 
+			       TextColor="#0EA5E9" 
+			       HorizontalOptions="Center" 
+			       CharacterSpacing="1.5" />
+			<Label Text="Drag roles from the left and drop them ONTO a parent node to add subordinates" 
+			       FontSize="13" 
+			       FontFamily="OpenSansRegular" 
+			       TextColor="#475569" 
+			       HorizontalOptions="Center" 
+			       Margin="0,2,0,0" />
+		</VerticalStackLayout>
+
+		<!-- 2-Column Workspace -->
+        <Grid Grid.Row="1" ColumnDefinitions="160, *" BackgroundColor="#FFFFFF">
+			<!-- Node List Column -->
+			<Grid Grid.Column="0" RowDefinitions="Auto, *" Margin="8, 0, 4, 8" Padding="4" BackgroundColor="#FFFFFF">
+				<Label Grid.Row="0" Text="ROLE TEMPLATES" FontSize="11" FontAttributes="Bold" TextColor="#475569" HorizontalOptions="Center" Margin="0,4,0,8" />
+				<diag:NodeListView Grid.Row="1" x:Name="nodeListView" BackgroundColor="Transparent" />
+			</Grid>
+
+			<!-- Diagram Canvas Column -->
+			<diag:DiagramView Grid.Column="1" x:Name="diagramView" Margin="4, 0, 8, 8" />
+		</Grid>
+	</Grid>
+</ContentPage>

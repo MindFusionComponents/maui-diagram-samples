@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:diag="http://mindfusion.eu/diagramming/maui"
+             x:Class="StressTest.MainPage">
+
+	<Grid RowDefinitions="*, Auto" ColumnDefinitions="Auto, *">
+
+		<diag:DiagramView
+			x:Name="diagramView"
+			Grid.ColumnSpan="2" />
+
+		<Button
+			Text="Create items"
+			Clicked="OnCreateItems"
+			Grid.Row="1" Margin="5" />
+
+		<Label
+			Grid.Row="1" Grid.Column="1" Margin="5"
+			Text="Click the button to create 20000 nodes and links in total. Diagram's spatial indexing allows for fast hit-test and viewport queries during rendering and user interactions." />
+
+	</Grid>
+
+</ContentPage>

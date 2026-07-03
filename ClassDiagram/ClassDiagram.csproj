@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>ClassDiagram</AssemblyName>
+    <RootNamespace>MindFusion.Diagramming.Wpf.Samples.CS.ClassDiagram</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MindFusion.Diagramming.Wpf" Version="4.3.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\_imageArrowDown.Image.png" />
+    <Resource Include="Images\_imageArrowUp.Image.png" />
+    <Resource Include="Images\_imageClass.Image.png" />
+    <Resource Include="Images\_imageDelegate.Image.png" />
+    <Resource Include="Images\_imageEnum.Image.png" />
+    <Resource Include="Images\_imageEnumField.Image.png" />
+    <Resource Include="Images\_imageEvent.Image.png" />
+    <Resource Include="Images\_imageField.Image.png" />
+    <Resource Include="Images\_imageInterface.Image.png" />
+    <Resource Include="Images\_imageMethod.Image.png" />
+    <Resource Include="Images\_imageNamespace.Image.png" />
+    <Resource Include="Images\_imagePField.Image.png" />
+    <Resource Include="Images\_imagePMethod.Image.png" />
+    <Resource Include="Images\_imagePProperty.Image.png" />
+    <Resource Include="Images\_imageProperty.Image.png" />
+    <Resource Include="Images\_imageStatic.Image.png" />
+    <Resource Include="Images\_imageStruct.Image.png" />
+    <Resource Include="App.ico" />
+  </ItemGroup>
+</Project>

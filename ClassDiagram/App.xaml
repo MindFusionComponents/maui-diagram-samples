@@ -1,0 +1,26 @@
+﻿<Application x:Class="MindFusion.Diagramming.Wpf.Samples.CS.ClassDiagram.App"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	StartupUri="MainWindow.xaml">
+	<Application.Resources>
+		<ResourceDictionary>
+			<ImageSource x:Key="ArrowDown">Images/_imageArrowDown.Image.png</ImageSource>
+			<ImageSource x:Key="ArrowUp">Images/_imageArrowUp.Image.png</ImageSource>
+			<ImageSource x:Key="Class">Images/_imageClass.Image.png</ImageSource>
+			<ImageSource x:Key="Delegate">Images/_imageDelegate.Image.png</ImageSource>
+			<ImageSource x:Key="Enum">Images/_imageEnum.Image.png</ImageSource>
+			<ImageSource x:Key="EnumField">Images/_imageEnumField.Image.png</ImageSource>
+			<ImageSource x:Key="Event">Images/_imageEvent.Image.png</ImageSource>
+			<ImageSource x:Key="Field">Images/_imageField.Image.png</ImageSource>
+			<ImageSource x:Key="Interface">Images/_imageInterface.Image.png</ImageSource>
+			<ImageSource x:Key="Method">Images/_imageMethod.Image.png</ImageSource>
+			<ImageSource x:Key="Namespace">Images/_imageNamespace.Image.png</ImageSource>
+			<ImageSource x:Key="PField">Images/_imagePField.Image.png</ImageSource>
+			<ImageSource x:Key="PMethod">Images/_imagePMethod.Image.png</ImageSource>
+			<ImageSource x:Key="PProperty">Images/_imagePProperty.Image.png</ImageSource>
+			<ImageSource x:Key="Property">Images/_imageProperty.Image.png</ImageSource>
+			<ImageSource x:Key="Static">Images/_imageStatic.Image.png</ImageSource>
+			<ImageSource x:Key="Struct">Images/_imageStruct.Image.png</ImageSource>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>
