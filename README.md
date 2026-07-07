@@ -4,6 +4,9 @@ Welcome to the ultimate repository for high-performance, cross-platform interact
 
 This repository contains a curated collection of production-ready, beautifully designed samples designed for modern (.NET 9/10) mobile and desktop platforms. Each sample emphasizes clean, modern, flat vector aesthetics, optimized layouts, and intuitive touch/pointer interactions.
 
+
+![MindFusion .NET MAUI Diagramming Samples Collage](images/collage.jpg)
+
 ---
 
 ## Highlighted Samples
